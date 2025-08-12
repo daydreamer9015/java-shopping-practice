@@ -1,0 +1,15 @@
+public class User {
+    private String id;
+    private String password;
+    private String name;
+    private String email;
+
+    public User(String id, String password, String name, String email) {
+        this.id = id;
+        this.name = name;
+        this.password = password;
+        this.email = email;
+    }
+    public String getId() { return id; }
+    public String getName() { return name; }
+}
